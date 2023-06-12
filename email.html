@@ -22,7 +22,7 @@
       rel="stylesheet"
     />
     <style type="text/css">
-      @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+      @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
     </style>
     <style type="text/css">
       a {
@@ -36,6 +36,9 @@
       .mc-pb-50 {
         padding: 0 0 50px;
       }
+      [style*="Open Sans"] {
+        font-family: "Open Sans", Arial, sans-serif !important;
+      }
       @media only screen and (max-width: 617px) {
         .w-100p {
           width: 100% !important;
@@ -43,6 +46,9 @@
         .tflex {
           display: block !important;
           width: 100% !important;
+        }
+        .pb-20 {
+          padding-bottom: 20px !important;
         }
       }
 
@@ -65,21 +71,45 @@
     <table
       class="gmail-fix"
       width="100%"
-      style="background: #fffffe; min-width: 320px"
+      style="background: #e5e5e5; min-width: 320px"
       cellspacing="0"
       cellpadding="0"
     >
       <tr>
-        <td class="mc-pb-50"></td>
-      </tr>
-      <tr>
-        <td mc:edit="block_138" class="hm" style="line-height: 0">
-          <div style="white-space: nowrap; font: 15px/0 courier">
-            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-          </div>
+        <td>
+          <table
+            class="w-100p"
+            width="660"
+            align="center"
+            style="background: #fffffe; max-width: 660px; margin: 0 auto"
+            cellpadding="0"
+            cellspacing="0"
+          >
+            <!-- main -->
+            <tr>
+              <td>
+                <table
+                  mc:repeatable="container"
+                  mc:variant="Баннер 01"
+                  width="100%"
+                  cellpadding="0"
+                  cellspacing="0"
+                >
+                  <tr>
+                    <td class="pb-20" style="padding: 0 0 34px">
+                      <table width="100%" cellpadding="0" cellspacing="0">
+                        <tr>
+                          <td style="background: #2b64f3">
+
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
         </td>
       </tr>
     </table>
