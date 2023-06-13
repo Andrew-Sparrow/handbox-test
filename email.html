@@ -65,6 +65,10 @@
           display: table-header-group !important;
           width: 100% !important;
         }
+        .plr-20 {
+          padding-left: 20px !important;
+          padding-right: 20px !important;
+        }
       }
 
       @media (prefers-dark-interface) {
@@ -94,70 +98,143 @@
         <td>
           <table
             class="w-100p"
-            width="660"
+            width="600"
             align="center"
             style="background: #fffffe; max-width: 660px; margin: 0 auto"
             cellpadding="0"
             cellspacing="0"
           >
-            <!-- main -->
-            <tr>
-              <td>
-                <table
-                  mc:repeatable="container"
-                  mc:variant="Баннер 01"
-                  width="100%"
-                  cellpadding="0"
-                  cellspacing="0"
-                >
-                  <tr>
-                    <td class="pb-20" style="padding: 0 0 40px;">
-                      <table width="100%" cellpadding="0" cellspacing="0">
-                        <tr>
-                          <td style="background-image: linear-gradient(#FF8383, #E7637C); border-bottom-right-radius: 300% 100%; border-bottom-left-radius: 300% 100%; box-shadow: 0 2px 5px rgba(17, 17, 17, 0.5);">
-                            <table width="100%" cellpadding="0" cellspacing="0">
-                              <th
-                                class="thead"
-                                width="330"
-                                align="left"
-                                style="vertical-align: top"
+            <tbody>
+              <!-- main -->
+              <tr>
+                <td>
+                  <table
+                    mc:repeatable="container"
+                    mc:variant="Баннер 01"
+                    width="100%"
+                    cellpadding="0"
+                    cellspacing="0"
+                  >
+                    <tr>
+                      <td class="pb-20" style="padding: 0 0 40px">
+                        <table width="100%" cellpadding="0" cellspacing="0">
+                          <tr>
+                            <td
+                              style="
+                                background-image: linear-gradient(
+                                  #ff8383,
+                                  #e7637c
+                                );
+                                border-bottom-right-radius: 300% 100%;
+                                border-bottom-left-radius: 300% 100%;
+                                box-shadow: 0 2px 5px rgba(17, 17, 17, 0.5);
+                                position: relative;
+                              "
+                            >
+                              <table
+                                width="100%"
+                                cellpadding="0"
+                                cellspacing="0"
                               >
-                                <table
-                                  width="100%"
-                                  cellpadding="0"
-                                  cellspacing="0"
+                                <th
+                                  class="thead"
+                                  width="330"
+                                  align="left"
+                                  style="vertical-align: top"
                                 >
-                                  <tbody>
-                                    <tr>
-                                      <td
-                                        mc:edit="block_010"
-                                        class="ta-c wi-100p"
-                                        align="center"
-                                      >
-                                        <img
-                                          src="books.png"
-                                          width="316"
-                                          style="
-                                            width: 394px;
-                                            max-width: 364px;
-                                            vertical-align: top;
-                                          "
-                                          alt=""
-                                        />
-                                      </td>
-                                    </tr>
-                                  </tbody>
-                                </table>
-                              </th>
-                            </table>
-                          </td>
-                        </tr>
-                      </table>
-                    </td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
+                                  <table
+                                    width="100%"
+                                    cellpadding="0"
+                                    cellspacing="0"
+                                  >
+                                    <tbody>
+                                      <tr>
+                                        <td
+                                          mc:edit="block_010"
+                                          class="ta-c wi-100p"
+                                          align="center"
+                                        >
+                                          <img
+                                            src="books.png"
+                                            width="316"
+                                            style="
+                                              width: 394px;
+                                              max-width: 364px;
+                                              vertical-align: top;
+                                            "
+                                            alt="books"
+                                          />
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </th>
+                              </table>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <table
+                    mc:repeatable="container"
+                    mc:variant="Приветствие"
+                    width="100%"
+                    cellpadding="0"
+                    cellspacing="0"
+                  >
+                    <tr>
+                      <td
+                        mc:edit="block_011"
+                        class="plr-20"
+                        style="
+                          padding-left: 20px;
+                          padding-right: 20px;
+                          padding-bottom: 40px;
+                          font-family: 'Open Sans', Arial, sans-serif;
+                          font-size: 15px;
+                          font-weight: 400;
+                          color: #474747;
+                        "
+                      >
+                        Добрый день!
+                      </td>
+                    </tr>
+                  </table>
+                  <table
+                    mc:repeatable="container"
+                    mc:variant="Приветствие"
+                    width="100%"
+                    cellpadding="0"
+                    cellspacing="0"
+                  >
+                    <tr>
+                      <td
+                        mc:edit="block_011"
+                        class="plr-20"
+                        style="
+                          padding: 0 20px;
+                          padding-bottom: 40px;
+                          font-family: 'Open Sans', Arial, sans-serif;
+                          font-size: 15px;
+                          font-weight: 400;
+                          color: #474747;
+                          line-height: 22.5px;
+                        "
+                      >
+                        Как построить действительно прибыльный бизнес? Как
+                        правильно управлять персоналом? И как стать лидером?<br/>
+                        Все эти вопросы задает себе каждый третий человек ежедневно.
+                        Но только один из них делает все возможное, чтобы
+                        достичь желаемого успеха. Хорошие бизнес-книги могут
+                        дать толчок к развитию мышления и привычек, а также
+                        практические советы по развитию своего дела.
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
           </table>
         </td>
       </tr>
